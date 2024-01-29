@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light Grey */
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Dark Grey */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White */
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+nav {
+    background-color: #555; /* Darker Grey */
+    overflow: hidden;
+    text-align: center;
+}
+#contact h2,p,h1{
+    color: white;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff; /* White */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #333; /* Dark Grey */
+    border: 1px solid #333; /* Dark Grey */
+}
+
+nav a:hover {
+    background-color: #444; /* Slightly Darker Grey on hover */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px; /* Adjust the margin-bottom to move the footer down */
+}
+
+#contact p {
+    color: white;
+}
+
+#contact {
+    background-color: #333; /* Dark Grey */
+    color: #fff; /* White */
+}
+
+#contact a {
+    color: #e74c3c; /* Red */
+}
+
+footer {
+    background-color: #333; /* Dark Grey */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.return-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.return-button:hover {
+    background-color: #444;
+}
